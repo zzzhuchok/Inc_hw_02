@@ -1,11 +1,20 @@
 .App {
-    --header_height: 60px;
+  --header_height: 60px;
+  padding-top: var(--header_height);
+  padding-inline: 20px;
+  max-width: 1280px;
+  margin-inline: auto;
+  font-family: "Montserrat", sans-serif;
+  color: #000
 }
 
 .hw {
-
+  padding-block: 24px;
+  /* overflow: hidden; */
 }
 
 .hwTitle {
-
+  padding-block: 10px;
+  font-weight: 600;
+  font-size: 22px;
 }
